@@ -19,7 +19,7 @@ const ResultPage: React.FC = () => {
 
   return (
     <div className="result-canvas">
-      {isExploding && <  ConfettiExplosion />}
+      {isExploding && <  ConfettiExplosion particleCount={250} width={1300} force={.8} duration={5200} />}
       <div className="result-wrapper">
         <h1>Successfully!</h1>
         <img id="successImg" src={SuccessImg} alt="" />
