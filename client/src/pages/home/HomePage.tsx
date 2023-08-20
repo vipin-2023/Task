@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
-          <Button text={"Start"} onClick={handleSubmit}/>
+          <Button text={"Start"} onClick={handleSubmit} />
 
         </div>
       </div>

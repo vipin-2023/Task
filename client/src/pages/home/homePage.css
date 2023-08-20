@@ -6,13 +6,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  ),
-  url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-background-size: cover;
-background-position: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)),
+    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-position: center;
 }
 
 .wrapper {
@@ -24,7 +22,7 @@ background-position: center;
 }
 
 .home-image {
- 
+
   height: 90px;
   object-fit: cover;
   overflow: hidden;
@@ -47,15 +45,15 @@ background-position: center;
   font-size: 14px;
 }
 
-.home-interation .username-field{
+.home-interation .username-field {
   border: 0.3px solid rgb(139, 139, 139);
 }
 
-.home-interation .username-field-error{
+.home-interation .username-field-error {
   border: 0.3px solid rgb(196, 1, 1);
 }
 
-.home-interation input:focus{
+.home-interation input:focus {
   background-color: rgb(255, 255, 255);
   border: 0.3px solid rgb(112, 172, 255);
 }
