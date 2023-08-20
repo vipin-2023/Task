@@ -21,7 +21,7 @@ const ResultPage: React.FC = () => {
     <div className="result-canvas">
       {isExploding && <  ConfettiExplosion particleCount={250} width={1300} force={.8} duration={5200} />}
       <div className="result-wrapper">
-        <h1>Successfully!</h1>
+        <h1>Successfull</h1>
         <img id="successImg" src={SuccessImg} alt="" />
         <p>Your form submission has been received !</p>
         <Button text="Home" onClick={handleReturnHome} />
