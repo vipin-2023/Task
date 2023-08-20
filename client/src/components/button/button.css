@@ -1,27 +1,4 @@
-/* .fill-button {
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 8px;
-    background-color: black;
-    padding: 0px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 0.9rem;
-}
 
-.outlined-button {
-    color: rgb(0, 0, 0);
-    border: 1px solid black;
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255);
-    padding: 0px;
-
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 0.9rem;
-} */
-
-/* Define the shining animation */
 @keyframes shining {
     0%, 100% {
       opacity: 0.3;
@@ -31,7 +8,7 @@
     }
   }
   
-  /* Button Styles */
+
   .fill-button {
     color: rgb(255, 255, 255);
     border: none;
