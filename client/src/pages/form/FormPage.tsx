@@ -143,7 +143,7 @@ const FormPage: React.FC = () => {
             onClick={handleCancel}
             text={"Cancel"}
           />
-          <Button type="submit"  text={isLoading ? "Loading..." : "Submit"} />
+          <Button text="Submit" type="submit" isFilled={true} isShining={isLoading}  />
         </div>
       </form>
     </div>
