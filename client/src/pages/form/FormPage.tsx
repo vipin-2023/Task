@@ -6,6 +6,7 @@ import Button from "../../components/button/Button";
 import axios from "axios";
 
 const FormPage: React.FC = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
   const params = useParams<{ username: string }>();
 
@@ -55,11 +56,12 @@ const FormPage: React.FC = () => {
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
 
       setValues({ ...values, [e.target.name]: e.target.value });
-      
+
   };
   
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    setIsLoading(true);
 
     if (isDataFetched) {
       try {
@@ -76,6 +78,7 @@ const FormPage: React.FC = () => {
         console.error("Error creating data:", error);
       }
     }
+    setIsLoading(false);
   };
 
   const handleCancel = () => {
@@ -140,7 +143,7 @@ const FormPage: React.FC = () => {
             onClick={handleCancel}
             text={"Cancel"}
           />
-          <Button type="submit" text={"Submit"} />
+          <Button type="submit"  text={isLoading ? "Loading..." : "Submit"} />
         </div>
       </form>
     </div>
