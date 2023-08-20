@@ -36,11 +36,16 @@ This will start a server  http://localhost:8080/
 This will start a reactapp  http://localhost:3000/  
 
 ## home page
-file:///home/loki/Pictures/Screenshots/Screenshot%20from%202023-08-20%2017-32-02.png
+
+![Screenshot from 2023-08-20 17-32-02](https://github.com/vipin-2023/Task/assets/109500059/1e641cd9-2bf4-4916-a1cd-0bb7ca3fa72c)
 
 ## form page
-file:///home/loki/Pictures/Screenshots/Screenshot%20from%202023-08-20%2017-32-22.png
+
+![Screenshot from 2023-08-20 17-32-22](https://github.com/vipin-2023/Task/assets/109500059/9a0b297c-b8b5-4f21-b7f9-20f7d12e72eb)
 
 ## success page
-file:///home/loki/Pictures/Screenshots/Screenshot%20from%202023-08-20%2017-32-37.png
+
+![Screenshot from 2023-08-20 17-32-37](https://github.com/vipin-2023/Task/assets/109500059/51fdc58a-bf79-4dac-be5b-b379aa5673fc)
+
+
 
