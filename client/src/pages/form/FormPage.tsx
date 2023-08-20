@@ -54,16 +54,10 @@ const FormPage: React.FC = () => {
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
 
-    if (e.target.name === "dob") {
-      const [day, month, year] = e.target.value.split("/");
-      const formattedDate = `${year}-${month}-${day}`;
-      setValues({ ...values, [e.target.name]: formattedDate });
-
-    } else {
       setValues({ ...values, [e.target.name]: e.target.value });
-    }
+      
   };
-
+  
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
