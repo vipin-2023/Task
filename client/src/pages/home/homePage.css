@@ -1,0 +1,90 @@
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  ),
+  url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+background-size: cover;
+background-position: center;
+}
+
+.wrapper {
+  height: min-content;
+  background-color: rgba(255, 255, 255, 0.559);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-image {
+ 
+  height: 90px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.home-interation {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px;
+}
+
+.home-interation input {
+  width: 250px;
+  margin: 5px 0 30px;
+  padding: 15px 15px;
+  color: black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.home-interation .username-field{
+  border: 0.3px solid rgb(139, 139, 139);
+}
+
+.home-interation .username-field-error{
+  border: 0.3px solid rgb(196, 1, 1);
+}
+
+.home-interation input:focus{
+  background-color: rgb(255, 255, 255);
+  border: 0.3px solid rgb(112, 172, 255);
+}
+
+::-webkit-input-placeholder {
+  color: rgb(186, 186, 186);
+}
+
+.home-interation label {
+  color: gray;
+}
+
+.home-interation button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  padding: 0px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.home-interation button:hover {
+  background-color: rgb(17, 17, 17);
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}

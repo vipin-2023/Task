@@ -1,0 +1,44 @@
+.result-canvas {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-position: center;
+}
+
+.result-wrapper {
+  height: min-content;
+  background-color: rgba(255, 255, 255, 0.559);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+}
+
+.result-wrapper img {
+  max-width: 250px;
+  min-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 10px;
+}
+.result-wrapper p {
+  color: gray;
+
+}
+.result-wrapper h1 {
+  color:#6464e9;
+}
