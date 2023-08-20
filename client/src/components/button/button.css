@@ -4,25 +4,25 @@
     border-radius: 8px;
     background-color: black;
     padding: 0px;
-
     margin-bottom: 20px;
     cursor: pointer;
     font-size: 0.9rem;
 }
-.outlined-button{
+
+.outlined-button {
     color: rgb(0, 0, 0);
     border: 1px solid black;
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
     padding: 0px;
-    
+
     margin-bottom: 20px;
     cursor: pointer;
     font-size: 0.9rem;
 }
+
 @media (max-width:480px) {
-    .fill-button .outlined-button{
-      
+    .fill-button .outlined-button {
         margin-bottom: 10px;
-     
-  }}
+    }
+}

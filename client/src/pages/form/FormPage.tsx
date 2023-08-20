@@ -8,6 +8,7 @@ import axios from "axios";
 const FormPage: React.FC = () => {
   const navigate = useNavigate();
   const params = useParams<{ username: string }>();
+
   const { username } = params;
   const paramName: string = username as string;
 
@@ -29,13 +30,16 @@ const FormPage: React.FC = () => {
     phoneNumber: "",
     dob: "",
   });
+
   const [isDataFetched, setIsDataFetched] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
+
         const response = await axios.get<UserData>(urlEndPoint);
         const data = response.data;
+
         if (data) {
           setValues(data);
           setIsDataFetched(true);
@@ -49,10 +53,12 @@ const FormPage: React.FC = () => {
   }, []);
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+
     if (e.target.name === "dob") {
       const [day, month, year] = e.target.value.split("/");
       const formattedDate = `${year}-${month}-${day}`;
       setValues({ ...values, [e.target.name]: formattedDate });
+
     } else {
       setValues({ ...values, [e.target.name]: e.target.value });
     }
