@@ -36,7 +36,11 @@ This will start a server  http://localhost:8080/
 This will start a reactapp  http://localhost:3000/  
 
 ## home page
+file:///home/loki/Pictures/Screenshots/Screenshot%20from%202023-08-20%2017-32-02.png
 
 ## form page
+file:///home/loki/Pictures/Screenshots/Screenshot%20from%202023-08-20%2017-32-22.png
 
 ## success page
+file:///home/loki/Pictures/Screenshots/Screenshot%20from%202023-08-20%2017-32-37.png
+
