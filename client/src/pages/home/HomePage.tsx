@@ -26,10 +26,9 @@ const HomePage: React.FC = () => {
           <input
             className={error ? "username-field-error" : "username-field"}
             type="text"
-            placeholder="eg : @Hannbi"
+            placeholder="@Hannbi"
             value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
+            onChange={(e) => setUsername(e.target.value)}/>
           <Button text={"Start"} onClick={handleSubmit} />
 
         </div>

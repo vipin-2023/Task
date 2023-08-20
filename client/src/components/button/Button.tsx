@@ -1,4 +1,4 @@
-import React, { FC,MouseEvent } from 'react';
+import { FC,MouseEvent } from 'react';
 import './button.css';
 
 interface ButtonProps {
@@ -13,8 +13,7 @@ const Button: FC<ButtonProps> = ({ text, isFilled = true ,onClick, type = 'butto
     <button
     type={type}
       className={isFilled ? 'fill-button' : 'outlined-button'}
-      onClick={onClick}
-    >
+      onClick={onClick}>
       {text}
     </button>
   );
