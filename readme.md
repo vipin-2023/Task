@@ -28,10 +28,10 @@ This will start a server  http://localhost:8080/
    npm install
 
     ```
-5. run npm start:
+5. run client:
 
    ```sh
-   npm install
+   npm start
     ```      
 This will start a reactapp  http://localhost:3000/
 
