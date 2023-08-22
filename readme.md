@@ -8,7 +8,7 @@
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/our-project.git
+   git clone https://github.com/vipin-2023/Task.git
    ``` 
 2. Go to server folder:
 
